@@ -1,0 +1,75 @@
+NICK:
+x-y=916
+x+y=1984
+x=1450, y=534
+
+Private key: cS71jENiwFmVHDjJNNZa3hUviqNSvpRbA7eD2uywQyL4QUQ8KwVT
+Address: n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW
+
+- Faucet
+.0199 txId => bb63d51d29e6c1c3e4c551c5552e19644b39296c38ac1750aed9be2bef46bc58
+.0001 txId => de6671dcbf20e68680bbe23e394f0c0b363c0b9592a5240a9bda7846c5d941f5
+
+- Faucet Split 
+.002249 txId => a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7
+
+
+ALICE:
+Private key: cQWk4AVSQYJioHYDBRAcRk9p1pE2TeyicW7dVpB9BxGmYqt6ehsn
+Address: mqTonmJYFCLW6capZBRjiCSarZSTaMbrQk
+
+- Faucet
+.0001 txId => 39c40bc0ffccf3103b0c3e270ad81ba454daffe9166a34040fb3be8f3b504f7a
+
+- Faucet Split
+.00003 txID => d9618342ddb1f2210837aba8c7c99b30481eedc354aad9e7b3f4edd5bbaffece
+
+BOB:
+Private key: cU3cAoNeYS1en9bgPujo21r4fjpGWbnXdZjSMGK7ZJQavE2GCrZ9
+Address: mu8ifq3JQn4XtjT8NicRuwacqiWRCiASjh
+
+- Faucet
+.0001 txId => fd67302ce1678579086b352029dbcbb4213c9e718d19121d5c4c1b4d2a77fa6d
+
+
+BANK CUSTOMERS:
+
+1: Private key: cNexQ6jqmR68QMxaMUeApmH4HLubn6tTbPeeDCY2fPu43NYatorA
+Address: mfyfyjJh9x62DD6wgfR8KxraG87wmmiAiN
+
+2: Private key: cUyLGv7YEqHhaZxVUXu7w6PFba7coDTGaWsrG4KBhrPyuBWDcujd
+Address: moHp3mg4KHoqR7BvWg5iJ2DW22vencKJZR
+
+3: Private key: cRZxzWjz8UYQwn78qg89ueafjXVr6nA4Zbh5Lm32qdQ1qS4th8hn
+Address: n4Cqhfh1WmCGqGdkwADhqjjAp3FFNX33gJ
+
+
+BlockCypher Keys:
+
+Token: f626d7dcb2444b4987bc10901f320a28
+
+
+ALICE: {
+  "private": "dc546db90e048f68bbc98574da60ffdbceef72aa53eb79450dee561fdc919f1e",
+  "public": "02f7517acde9b0a194f5e60bf5cbbb923901a1255f5c791a6ac8abd77103c57cc6",
+  "address": "BwzMj3zbLdb1tuWer2u2FJ6WPKhFj3WPAm",
+  "wif": "BviKhD1cT9JFkEL4mN5TnXLJNbfmd59F2VEYUtcpSkvZiiYhVe9D"
+}
+
+BOB: {
+  "private": "4d9231591bf433621c8959e05684e88c94ef17b838bac67552298eb177c8f305",
+  "public": "03381d548bd9b4837ab6fb291221168cdaca546ea32d9146f91b477bb71a3aadf1",
+  "address": "BzjCUJLBHUtF9jnHAgU5GxidHwtPWBCDSu",
+  "wif": "BqvpSfSgam7LucHwEJtsA6ibKVTkmufD9bKSMai8QJDNeGYp3kKL"
+}
+- Faucet 
+.001 txId => "ef4b3d09a6fbe1b7a0e64bfc8c60cf5732a21492a378e3e181455f2a664b56ce"
+- Faucet Split
+.00029 txId => 6f6837f0c385584539e89c7dc72d3f8d6fa67b44e77d6e40c2ab4b5eff251afe
+
+QUESTIONS:
+Q1_txid = '0f3e873fce824ccf0f12ef08fd9a096fdc16b6b583e5382943476185726cdeab'
+Q2a_txid = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Q2b_txid = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Q3a_txid = 'f076112697bf8f91387ccc547376eaf820bb35e030b185a7d6a9c8b521af6557'
+Q3b_txid = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'

@@ -23,6 +23,7 @@ def multisig_scriptSig(txin, txout, txin_scriptPubKey):
     # multisig transaction created in Exercise 3a.
     return [
         # fill this in!
+        OP_0, bank_sig, cust1_sig, Q3a_txout_scriptPubKey
     ]
     ######################################################################
 
@@ -42,10 +43,10 @@ def send_from_multisig_transaction(amount_to_send, txid_to_spend, utxo_index,
 if __name__ == '__main__':
     ######################################################################
     # TODO: set these parameters correctly
-    amount_to_send = None # amount of BTC in the output you're sending minus fee
+    amount_to_send = 0.0018 # amount of BTC in the output you're sending minus fee
     txid_to_spend = (
-        'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-    utxo_index = None # index of the output you are spending, indices start at 0
+        'f076112697bf8f91387ccc547376eaf820bb35e030b185a7d6a9c8b521af6557')
+    utxo_index = 0 # index of the output you are spending, indices start at 0
     ######################################################################
 
     txin_scriptPubKey = Q3a_txout_scriptPubKey
