@@ -12,8 +12,7 @@ def P2PKH_scriptPubKey(address):
     # PayToPublicKeyHash transaction
     return [
         # fill this in!
-        OP_DUP, OP_HASH160, my_address,
-        OP_EQUALVERIFY, OP_CHECKSIG
+        OP_DUP, OP_HASH160, address, OP_EQUALVERIFY, OP_CHECKSIG
     ]
     ######################################################################
 
@@ -59,7 +58,7 @@ if __name__ == '__main__':
     amount_to_send = .002 # amount of BTC in the output you're sending minus fee
     txid_to_spend = (
         'a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7')
-    utxo_index = 0 # index of the output you are spending, indices start at 0
+    utxo_index = 4 # index of the output you are spending, indices start at 0
     ######################################################################
 
     txout_scriptPubKey = P2PKH_scriptPubKey(faucet_address)

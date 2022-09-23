@@ -23,7 +23,7 @@ def multisig_scriptSig(txin, txout, txin_scriptPubKey):
     # multisig transaction created in Exercise 3a.
     return [
         # fill this in!
-        OP_0, bank_sig, cust1_sig, Q3a_txout_scriptPubKey
+        bank_sig, cust1_sig, Q3a_txout_scriptPubKey
     ]
     ######################################################################
 
