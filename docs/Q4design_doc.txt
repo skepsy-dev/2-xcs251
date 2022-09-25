@@ -12,3 +12,12 @@
 #
 
 
+The scripPubKey is set up to validate the secret key submitted along with the recipients 
+public key via signature. If the secret and signture both match as expected the transaction 
+will execute to the recipient. The embedded if statement allows the sender to redeem the 
+transaction after the specified Locktime has been dropped/passed, incase the recipient 
+does not claim it or go through with the swap. This allows Alice to always get her money 
+back if Bob doesn't redeem it. A straight 1-of-2 multisig would be unsecure becuase Alice 
+could collect back the funds before Bob could redeem them and or Bob could redeem the funds 
+before Alice has reveled the secret/redeemed her side of the transaction prior, as the deal 
+was intedned. 
