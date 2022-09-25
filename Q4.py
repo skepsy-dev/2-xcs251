@@ -16,25 +16,24 @@ def coinExchangeScript(public_key_sender, public_key_recipient, hash_of_secret):
     return [
         # fill this in!
         OP_IF,
-            OP_2, public_key_recipient, hash_of_secret, OP_2, OP_EQUALVERIFY, OP_CHECKMULTISIG,
-        OP_ELSE,
-        alice_locktime, bob_locktime, OP_CHECKLOCKTIMEVERIFY, OP_DROP,
+        public_key_recipient, OP_CHECKSIG, hash_of_secret, OP_EQUAL,
         OP_ENDIF,
-            OP_2, public_key_recipient, public_key_sender, OP_2, OP_EQUALVERIFY, OP_CHECKMULTISIG
+        alice_locktime, OP_CHECKLOCKTIMEVERIFY, OP_DROP, OP_2, 
+        public_key_recipient, public_key_sender, OP_2, OP_CHECKMULTISIG,
     ]
 
 # This is the ScriptSig that the receiver will use to redeem coins
 def coinExchangeScriptSig1(sig_recipient, secret):
     return [
         # fill this in!
-        0, sig_recipient, OP_HASH160, secret, coinExchangeScript
+        0, sig_recipient, secret, OP_TRUE,
     ]
 
 # This is the ScriptSig for sending coins back to the sender if unredeemed
 def coinExchangeScriptSig2(sig_sender, sig_recipient):
     return [
         # fill this in!
-        0, sig_recipient, sig_sender, coinExchangeScript
+        0, sig_sender, sig_recipient, OP_FALSE
     ]
 ######################################################################
 
@@ -55,17 +54,17 @@ bob_amount_to_send      = 0.0002
 
 # Get current block height (for locktime) in 'height' parameter for each blockchain (will be used in swap.py):
 #  curl https://api.blockcypher.com/v1/btc/test3
-btc_test3_chain_height = 2347736
+btc_test3_chain_height = 2348010
 
 #  curl https://api.blockcypher.com/v1/bcy/test
-bcy_test_chain_height = 471165
+bcy_test_chain_height = 474212
 
 # Parameter for how long Alice/Bob should have to wait before they can take back their coins
 # alice_locktime MUST be > bob_locktime
 alice_locktime = 5
 bob_locktime = 3
 
-tx_fee = 0.0001
+tx_fee = 0.000001
 
 # While testing your code, you can edit these variables to see if your
 # transaction can be broadcasted succesfully.

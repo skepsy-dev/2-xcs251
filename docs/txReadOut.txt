@@ -1,51 +1,4 @@
-Q1 (wrong) Read Out: {
-  "tx": {
-    "block_height": -1,
-    "block_index": -1,
-    "hash": "0f3e873fce824ccf0f12ef08fd9a096fdc16b6b583e5382943476185726cdeab",
-    "addresses": [
-      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-    ],
-    "total": 200000,
-    "fees": 24999,
-    "size": 191,
-    "vsize": 191,
-    "preference": "high",
-    "relayed_by": "2600:1700:d290:2ad0:5dc3:6e80:1884:f004",
-    "received": "2022-09-12T22:11:53.937212685Z",
-    "ver": 1,
-    "double_spend": false,
-    "vin_sz": 1,
-    "vout_sz": 1,
-    "confirmations": 0,
-    "inputs": [
-      {
-        "prev_hash": "a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7",
-        "output_index": 0,
-        "script": "47304402204d50ff055b648f3d9ee39f9094db67090b1f528066ee79b3b5a1cb17f1c306e702205e1c94eb21628244d42e0c55179b0f86c1a6e47c20d5bf26523b4c421b5f9aef01210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
-        "output_value": 224999,
-        "sequence": 4294967295,
-        "addresses": [
-          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-        ],
-        "script_type": "pay-to-pubkey-hash",
-        "age": 2346330
-      }
-    ],
-    "outputs": [
-      {
-        "value": 200000,
-        "script": "76a914e9640791cff45e5565d6dd9c7e170fab01123a4b88ac",
-        "addresses": [
-          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-        ],
-        "script_type": "pay-to-pubkey-hash"
-      }
-    ]
-  }
-}
-
-Q1 (success) READ OUT python Q1.py
+Q1 READ OUT python Q1.py
 201 Created
 {
   "tx": {
@@ -283,7 +236,7 @@ Q2a #4 READ OUT:~ python Q2a.py
   }
 }
 
-Q2a #4 READ OUT: ~ python Q2a.py
+Q2a #5 READ OUT: ~ python Q2a.py
 201 Created
 {
   "tx": {
@@ -330,7 +283,55 @@ Q2a #4 READ OUT: ~ python Q2a.py
   }
 }
 
-Q3a READ OUT: {
+Q2a #6 READ OUT: ~ python Q2a.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "9ad89072335a035d347696692df62ca790f4be9a66200ebb339ff8852d4873b8",
+    "addresses": [
+      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+    ],
+    "total": 80000,
+    "fees": 12059,
+    "size": 177,
+    "vsize": 177,
+    "preference": "medium",
+    "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
+    "received": "2022-09-25T17:16:22.310618975Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "7b9c454883248535b75be64e7286dcb416a49f9bc86bfbed5702ccd2f504d05f",
+        "output_index": 1,
+        "script": "47304402202ee9e6e25b34c49e882e0100c2a7391ee0efdd0e89eae48a5134d56dcaaa916d02204d1f47a7abbca26aecf2a75a8e660773830ed9bf3db792573626d7a861d32a1601210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
+        "output_value": 92059,
+        "sequence": 4294967295,
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2347631
+      }
+    ],
+    "outputs": [
+      {
+        "value": 80000,
+        "script": "6e9302c007889402940387",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+
+
+Q3a #1 READ OUT: {
   "tx": {
     "block_height": -1,
     "block_index": -1,
@@ -377,6 +378,58 @@ Q3a READ OUT: {
     ]
   }
 }
+
+Q3a #2 READ OUT: (my_public_key,OP_CHECKSIG, OP_1, cust1_public_key, cust2_public_key, 
+        cust3_public_key, OP_3, OP_CHECKMULTISIG) ~ python Q3a.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "7d43c658b75d1cda92c3bd25619fd4a4d49e13213ab31f4a96b6795bf3e2d1cc",
+    "addresses": [
+      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW",
+      "z9CeokkQKTepohvFZJDTxeqcHe5JngaTHt"
+    ],
+    "total": 100000,
+    "fees": 100000,
+    "size": 307,
+    "vsize": 307,
+    "preference": "high",
+    "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
+    "received": "2022-09-25T17:49:39.453195126Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "0f3e873fce824ccf0f12ef08fd9a096fdc16b6b583e5382943476185726cdeab",
+        "output_index": 0,
+        "script": "483045022100e90df9f4d9608a7aeec930b9ab86adb63ccb5953ee7b09c0108db52603a572f5022016b99216e73b3fbec0d8f960f5dfe02ed5e66faaa2670028c80a57a5b2c92ed101210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
+        "output_value": 200000,
+        "sequence": 4294967295,
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2346338
+      }
+    ],
+    "outputs": [
+      {
+        "value": 100000,
+        "script": "210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126ac512102e0b66a795fc5db4d874d992bf6993e401b8810e217b7cc0854534f99f46d12002103261a163021fc3a0275c0eb56628077ebd4a3b6d8a8634fbf86fd212a03fb3fe72102a062ed10ba4dced1da9064f0d37fad82e911aca8140649f6ee3b4a2a2256af5353ae",
+        "addresses": [
+          "z9CeokkQKTepohvFZJDTxeqcHe5JngaTHt"
+        ],
+        "script_type": "pay-to-multi-pubkey-hash"
+      }
+    ]
+  }
+}
+
 
 
 Split Txs Print Out: {
@@ -614,5 +667,78 @@ BOB BLOCHCYPHER SPLIT:
 }
 
 
+
+2nd Faucet from my address: ~ python split_test_coins.py 
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "61a6492f1bbe70ef2953ecfdb2337ddfcc31ad6f6650918ad26a685894cfe16f",
+    "addresses": [
+      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+    ],
+    "total": 200000,
+    "fees": 24999,
+    "size": 294,
+    "vsize": 294,
+    "preference": "medium",
+    "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
+    "received": "2022-09-25T20:00:55.249625977Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 4,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7",
+        "output_index": 2,
+        "script": "483045022100c3901256637e6b1fd5158c3232bf5fe4101278f91ee7f6657f9980abda2cd52f02201616a182040dfa23036202b3e61b8e4e3efa250e5722c3741a418f0dccd54c1501210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
+        "output_value": 224999,
+        "sequence": 4294967295,
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2346330
+      }
+    ],
+    "outputs": [
+      {
+        "value": 50000,
+        "script": "76a914e9640791cff45e5565d6dd9c7e170fab01123a4b88ac",
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 50000,
+        "script": "76a914e9640791cff45e5565d6dd9c7e170fab01123a4b88ac",
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 50000,
+        "script": "76a914e9640791cff45e5565d6dd9c7e170fab01123a4b88ac",
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 50000,
+        "script": "76a914e9640791cff45e5565d6dd9c7e170fab01123a4b88ac",
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
 
 

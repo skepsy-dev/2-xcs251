@@ -28,7 +28,7 @@ cust3_public_key = cust3_private_key.pub
 
 Q3a_txout_scriptPubKey = [
         # fill this in!
-        my_public_key, OP_CHECKSIGVERIFY, OP_1, cust1_public_key, cust2_public_key, 
+        my_public_key,OP_CHECKSIG, OP_1, cust1_public_key, cust2_public_key, 
         cust3_public_key, OP_3, OP_CHECKMULTISIG
 ]
 ######################################################################
@@ -36,10 +36,10 @@ Q3a_txout_scriptPubKey = [
 if __name__ == '__main__':
     ######################################################################
     # TODO: set these parameters correctly
-    amount_to_send = .002 # amount of BTC in the output you're sending minus fee
+    amount_to_send = .001 # amount of BTC in the output you're sending minus fee
     txid_to_spend = (
-        'a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7')
-    utxo_index = 3 # index of the output you are spending, indices start at 0
+        '0f3e873fce824ccf0f12ef08fd9a096fdc16b6b583e5382943476185726cdeab')
+    utxo_index = 0 # index of the output you are spending, indices start at 0
     ######################################################################
 
     response = send_from_P2PKH_transaction(amount_to_send, txid_to_spend, 

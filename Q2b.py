@@ -11,9 +11,9 @@ from Q2a import Q2a_txout_scriptPubKey
 
 ######################################################################
 # TODO: set these parameters correctly
-amount_to_send = .00015  # amount of BTC in the output you're sending minus fee
+amount_to_send = .0007  # amount of BTC in the output you're sending minus fee
 txid_to_spend = (
-    'dfb9f8237a31996691bbc031c7f984a1e0c46a200f3a335601e8565470d6575e')
+    '9ad89072335a035d347696692df62ca790f4be9a66200ebb339ff8852d4873b8')
 utxo_index = 0 # index of the output you are spending, indices start at 0
 ######################################################################
 
@@ -23,7 +23,7 @@ txin_scriptPubKey = Q2a_txout_scriptPubKey
 # in  Exercise 2a.
 txin_scriptSig = [
         # fill this in!
-        0, 1450, 534, OP_EQUALVERIFY, txin_scriptPubKey
+        1450, 534
 ]
 ######################################################################
 txout_scriptPubKey = P2PKH_scriptPubKey(faucet_address)
