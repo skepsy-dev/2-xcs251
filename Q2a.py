@@ -18,9 +18,9 @@ Q2a_txout_scriptPubKey = [
 if __name__ == '__main__':
     ######################################################################
     # TODO: set these parameters correctly
-    amount_to_send = 0.0008  # amount of BTC in the output you're sending minus fee
+    amount_to_send = 0.00005  # amount of BTC in the output you're sending minus fee
     txid_to_spend = (
-        '7b9c454883248535b75be64e7286dcb416a49f9bc86bfbed5702ccd2f504d05f')
+        'de6671dcbf20e68680bbe23e394f0c0b363c0b9592a5240a9bda7846c5d941f5')
     utxo_index = 1 # index of the output you are spending, indices start at 0
     ######################################################################
 

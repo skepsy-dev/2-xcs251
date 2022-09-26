@@ -48,258 +48,24 @@ Q1 READ OUT python Q1.py
   }
 }
 
-Q2a #1 READ OUT: ~ python Q2a.py
+Q2a READ OUT: (OP_2DUP, OP_ADD, 1984, OP_EQUALVERIFY, OP_SUB, 916, OP_EQUAL)
+~ python Q2a.py 
 201 Created
 {
   "tx": {
     "block_height": -1,
     "block_index": -1,
-    "hash": "190c309f4fc93fbcca47325f7d42c171627bed837471781aae632e11297725d5",
+    "hash": "1e7c87f076b7bdb2f074879aee5f49227aad6db2afd801aab2fa0dfcf70d3cdf",
     "addresses": [
       "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
     ],
-    "total": 200000,
-    "fees": 24999,
-    "size": 214,
-    "vsize": 214,
-    "preference": "high",
-    "relayed_by": "2600:1700:d290:2ad0:3903:32a7:85e1:b812",
-    "received": "2022-09-22T20:25:29.951144266Z",
-    "ver": 1,
-    "double_spend": false,
-    "vin_sz": 1,
-    "vout_sz": 1,
-    "confirmations": 0,
-    "inputs": [
-      {
-        "prev_hash": "a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7",
-        "output_index": 1,
-        "script": "48304502210081ccee1cab48c4ce632ab9064cbdbab3e9aabe96d38c5457ea9adfc6276eefb802206453a1ba069efa1bf868488612e9c4e97151ef155780619a7e280fff5fd8ab0601210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
-        "output_value": 224999,
-        "sequence": 4294967295,
-        "addresses": [
-          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-        ],
-        "script_type": "pay-to-pubkey-hash",
-        "age": 2346330
-      }
-    ],
-    "outputs": [
-      {
-        "value": 200000,
-        "script": "6e9302c007889402940388a9210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126ac",
-        "addresses": null,
-        "script_type": "unknown"
-      }
-    ]
-  }
-}
-
-Q2a #2 READ OUT: ~ python Q2a.py
-201 Created
-{
-  "tx": {
-    "block_height": -1,
-    "block_index": -1,
-    "hash": "dd393320e2da0dc0385be8cca193e8f40f391f756a1ad4a5d7b96ca9b522b55a",
-    "addresses": [
-      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-    ],
-    "total": 200000,
-    "fees": 24999,
-    "size": 214,
-    "vsize": 214,
-    "preference": "high",
-    "relayed_by": "2600:1700:d290:2ad0:3903:32a7:85e1:b812",
-    "received": "2022-09-22T21:11:45.697190285Z",
-    "ver": 1,
-    "double_spend": false,
-    "vin_sz": 1,
-    "vout_sz": 1,
-    "confirmations": 0,
-    "inputs": [
-      {
-        "prev_hash": "a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7",
-        "output_index": 5,
-        "script": "473044022053f8f7fd2103fd1fe18a3b3cefa6a8fe4f086f76ede3fc7733cf74acc076949802206cfea07d3ce3da8d58a86ef0468aef387388382ff310206d76db07d96d6d79fb01210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
-        "output_value": 224999,
-        "sequence": 4294967295,
-        "addresses": [
-          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-        ],
-        "script_type": "pay-to-pubkey-hash",
-        "age": 2346330
-      }
-    ],
-    "outputs": [
-      {
-        "value": 200000,
-        "script": "6e9302c007879402940387a9210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c4012688ac",
-        "addresses": null,
-        "script_type": "unknown"
-      }
-    ]
-  }
-}
-
-Q2a #3 READ OUT:~ python Q2a.py
-201 Created
-{
-  "tx": {
-    "block_height": -1,
-    "block_index": -1,
-    "hash": "737914dfb317731a19d3da669c628ffb2a4e05cf643a6a8e8c53d34a4d57977c",
-    "addresses": [
-      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-    ],
-    "total": 200000,
-    "fees": 24999,
-    "size": 212,
-    "vsize": 212,
-    "preference": "high",
-    "relayed_by": "2600:1700:d290:2ad0:3903:32a7:85e1:b812",
-    "received": "2022-09-23T01:07:35.129317123Z",
-    "ver": 1,
-    "double_spend": false,
-    "vin_sz": 1,
-    "vout_sz": 1,
-    "confirmations": 0,
-    "inputs": [
-      {
-        "prev_hash": "a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7",
-        "output_index": 6,
-        "script": "473044022005a9264f6cb31d30609e22952a481f2b381ce53f2c714ca4c7eb2950533883ae022003f484f517ac96edeba7873ee84f8c840779a2290bdf8faeba4398467db0277601210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
-        "output_value": 224999,
-        "sequence": 4294967295,
-        "addresses": [
-          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-        ],
-        "script_type": "pay-to-pubkey-hash",
-        "age": 2346330
-      }
-    ],
-    "outputs": [
-      {
-        "value": 200000,
-        "script": "6e9302c00794029403a9210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c4012688ac",
-        "addresses": null,
-        "script_type": "unknown"
-      }
-    ]
-  }
-}
-
-Q2a #4 READ OUT:~ python Q2a.py
-201 Created
-{
-  "tx": {
-    "block_height": -1,
-    "block_index": -1,
-    "hash": "1eafaf60806b5808ae93b9dfadacb660fb1fc2680dbceda2f0c249f7741b56d3",
-    "addresses": [
-      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-    ],
-    "total": 200000,
-    "fees": 24999,
-    "size": 176,
-    "vsize": 176,
-    "preference": "high",
-    "relayed_by": "2600:1700:d290:2ad0:3903:32a7:85e1:b812",
-    "received": "2022-09-23T01:45:09.812837623Z",
-    "ver": 1,
-    "double_spend": false,
-    "vin_sz": 1,
-    "vout_sz": 1,
-    "confirmations": 0,
-    "inputs": [
-      {
-        "prev_hash": "a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7",
-        "output_index": 7,
-        "script": "473044022003fe5bc6b168dc13a1bdc48a5cd19d324e5963637739b7acef46532982ca3b7202206efea2b38483c115128abc87fae16139c7a71062af30c3d129d57d95ecaf5f9601210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
-        "output_value": 224999,
-        "sequence": 4294967295,
-        "addresses": [
-          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-        ],
-        "script_type": "pay-to-pubkey-hash",
-        "age": 2346330
-      }
-    ],
-    "outputs": [
-      {
-        "value": 200000,
-        "script": "6e9302c0079402940388",
-        "addresses": null,
-        "script_type": "unknown"
-      }
-    ]
-  }
-}
-
-Q2a #5 READ OUT: ~ python Q2a.py
-201 Created
-{
-  "tx": {
-    "block_height": -1,
-    "block_index": -1,
-    "hash": "dfb9f8237a31996691bbc031c7f984a1e0c46a200f3a335601e8565470d6575e",
-    "addresses": [
-      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-    ],
-    "total": 29999,
-    "fees": 20001,
-    "size": 178,
-    "vsize": 178,
-    "preference": "high",
-    "relayed_by": "2600:1700:d290:2ad0:3903:32a7:85e1:b812",
-    "received": "2022-09-23T04:09:20.707664341Z",
-    "ver": 1,
-    "double_spend": false,
-    "vin_sz": 1,
-    "vout_sz": 1,
-    "confirmations": 0,
-    "inputs": [
-      {
-        "prev_hash": "f2441dba1d8215f2bde270aac9e5dc4363092620d57f76ecbd22c18e94d4ce86",
-        "output_index": 0,
-        "script": "48304502210099bac71c0679ed6ade27a5e2a7c2314b8d0a2f1f89653179ea2ac88fc3a1c885022023cc86f00e62ce3e14c3a48825c3d21f3704608322726d5a2d56d3673d86602301210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
-        "output_value": 50000,
-        "sequence": 4294967295,
-        "addresses": [
-          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-        ],
-        "script_type": "pay-to-pubkey-hash",
-        "age": 2347631
-      }
-    ],
-    "outputs": [
-      {
-        "value": 29999,
-        "script": "6e9302c007889402940388",
-        "addresses": null,
-        "script_type": "unknown"
-      }
-    ]
-  }
-}
-
-Q2a #6 READ OUT: ~ python Q2a.py
-201 Created
-{
-  "tx": {
-    "block_height": -1,
-    "block_index": -1,
-    "hash": "9ad89072335a035d347696692df62ca790f4be9a66200ebb339ff8852d4873b8",
-    "addresses": [
-      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-    ],
-    "total": 80000,
-    "fees": 12059,
+    "total": 5000,
+    "fees": 5000,
     "size": 177,
     "vsize": 177,
-    "preference": "medium",
+    "preference": "low",
     "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
-    "received": "2022-09-25T17:16:22.310618975Z",
+    "received": "2022-09-26T17:20:31.676731628Z",
     "ver": 1,
     "double_spend": false,
     "vin_sz": 1,
@@ -307,21 +73,21 @@ Q2a #6 READ OUT: ~ python Q2a.py
     "confirmations": 0,
     "inputs": [
       {
-        "prev_hash": "7b9c454883248535b75be64e7286dcb416a49f9bc86bfbed5702ccd2f504d05f",
+        "prev_hash": "de6671dcbf20e68680bbe23e394f0c0b363c0b9592a5240a9bda7846c5d941f5",
         "output_index": 1,
-        "script": "47304402202ee9e6e25b34c49e882e0100c2a7391ee0efdd0e89eae48a5134d56dcaaa916d02204d1f47a7abbca26aecf2a75a8e660773830ed9bf3db792573626d7a861d32a1601210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
-        "output_value": 92059,
+        "script": "473044022002e010214a762d9a143c90720032dd2c919d9dadfcc0f49cc2cbf2688b8271ec02203c1888e1420847c7686df168e63d7f6ddf3077f4cd850562e33b9c4e9ecdd17c01210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
+        "output_value": 10000,
         "sequence": 4294967295,
         "addresses": [
           "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
         ],
         "script_type": "pay-to-pubkey-hash",
-        "age": 2347631
+        "age": 2346324
       }
     ],
     "outputs": [
       {
-        "value": 80000,
+        "value": 5000,
         "script": "6e9302c007889402940387",
         "addresses": null,
         "script_type": "unknown"
@@ -330,23 +96,24 @@ Q2a #6 READ OUT: ~ python Q2a.py
   }
 }
 
-
-Q3a #1 READ OUT: {
+Q2b READ OUT: (1450, 534)
+~ python Q2b.py
+201 Created
+{
   "tx": {
     "block_height": -1,
     "block_index": -1,
-    "hash": "f076112697bf8f91387ccc547376eaf820bb35e030b185a7d6a9c8b521af6557",
+    "hash": "c21b13be57af4bbdb68e82bf81ed7d8b1711e0f6a54efa21b955dea6bbaeb399",
     "addresses": [
-      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW",
-      "zV4HodeFpjby53m6wqXHf6AFnkfHDJzzuw"
+      "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
     ],
-    "total": 200000,
-    "fees": 24999,
-    "size": 306,
-    "vsize": 306,
-    "preference": "medium",
-    "relayed_by": "2600:1700:d290:2ad0:5dc3:6e80:1884:f004",
-    "received": "2022-09-12T22:55:21.544835404Z",
+    "total": 2000,
+    "fees": 3000,
+    "size": 91,
+    "vsize": 91,
+    "preference": "low",
+    "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
+    "received": "2022-09-26T18:38:43.866307139Z",
     "ver": 1,
     "double_spend": false,
     "vin_sz": 1,
@@ -354,39 +121,37 @@ Q3a #1 READ OUT: {
     "confirmations": 0,
     "inputs": [
       {
-        "prev_hash": "a30656d04427d3f0a0394f6ed973a39c900a989956410fa86cc962347e9c6fd7",
-        "output_index": 3,
-        "script": "483045022100b5efdd2c707e00d6f648b920c8400b9e1073a5210c9ecc476c6bca77a2edeeae022034bb5ccc8228223120b46434fe52938fafe3ea3d208290be1f1d07fe602ea5c201210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
-        "output_value": 224999,
+        "prev_hash": "1e7c87f076b7bdb2f074879aee5f49227aad6db2afd801aab2fa0dfcf70d3cdf",
+        "output_index": 0,
+        "script": "02aa05021602",
+        "output_value": 5000,
         "sequence": 4294967295,
-        "addresses": [
-          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
-        ],
-        "script_type": "pay-to-pubkey-hash",
-        "age": 2346330
+        "script_type": "unknown",
+        "age": 2348286
       }
     ],
     "outputs": [
       {
-        "value": 200000,
-        "script": "52210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c401262102e0b66a795fc5db4d874d992bf6993e401b8810e217b7cc0854534f99f46d12002103261a163021fc3a0275c0eb56628077ebd4a3b6d8a8634fbf86fd212a03fb3fe72102a062ed10ba4dced1da9064f0d37fad82e911aca8140649f6ee3b4a2a2256af5354ae",
+        "value": 2000,
+        "script": "76a9149f9a7abd600c0caa03983a77c8c3df8e062cb2fa88ac",
         "addresses": [
-          "zV4HodeFpjby53m6wqXHf6AFnkfHDJzzuw"
+          "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
         ],
-        "script_type": "pay-to-multi-pubkey-hash"
+        "script_type": "pay-to-pubkey-hash"
       }
     ]
   }
 }
 
-Q3a #2 READ OUT: (my_public_key,OP_CHECKSIG, OP_1, cust1_public_key, cust2_public_key, 
-        cust3_public_key, OP_3, OP_CHECKMULTISIG) ~ python Q3a.py
+Q3a READ OUT: (my_public_key,OP_CHECKSIG, OP_1, cust1_public_key, cust2_public_key, 
+              cust3_public_key, OP_3, OP_CHECKMULTISIG) 
+~ python Q3a.py  
 201 Created
 {
   "tx": {
     "block_height": -1,
     "block_index": -1,
-    "hash": "7d43c658b75d1cda92c3bd25619fd4a4d49e13213ab31f4a96b6795bf3e2d1cc",
+    "hash": "2b37e6b959af60da6adb2b2ca9fa2e8d62a2721d8f43bad7f123e7cdaf8d087b",
     "addresses": [
       "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW",
       "z9CeokkQKTepohvFZJDTxeqcHe5JngaTHt"
@@ -397,7 +162,7 @@ Q3a #2 READ OUT: (my_public_key,OP_CHECKSIG, OP_1, cust1_public_key, cust2_publi
     "vsize": 307,
     "preference": "high",
     "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
-    "received": "2022-09-25T17:49:39.453195126Z",
+    "received": "2022-09-26T17:30:20.83526764Z",
     "ver": 1,
     "double_spend": false,
     "vin_sz": 1,
@@ -407,7 +172,7 @@ Q3a #2 READ OUT: (my_public_key,OP_CHECKSIG, OP_1, cust1_public_key, cust2_publi
       {
         "prev_hash": "0f3e873fce824ccf0f12ef08fd9a096fdc16b6b583e5382943476185726cdeab",
         "output_index": 0,
-        "script": "483045022100e90df9f4d9608a7aeec930b9ab86adb63ccb5953ee7b09c0108db52603a572f5022016b99216e73b3fbec0d8f960f5dfe02ed5e66faaa2670028c80a57a5b2c92ed101210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
+        "script": "483045022100dc67e1822a5c44878e1f8ea4e588a7211827f9cb15c4480bb51a224fbde6ed9b02205578c342b05c6c5e6d98fe336915d0b86ed77fc5de968d5e928c87355b59afec01210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
         "output_value": 200000,
         "sequence": 4294967295,
         "addresses": [
@@ -429,6 +194,203 @@ Q3a #2 READ OUT: (my_public_key,OP_CHECKSIG, OP_1, cust1_public_key, cust2_publi
     ]
   }
 }
+
+Q3b READ OUT: (0, bank_sig, cust1_sig)
+
+
+
+
+Q4 TX READ OUT #1 (alice reedem set to FALSE): ~ python swap.py
+Alice swap tx (BTC) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "5b3f6594588569ec043d44963440e4b9be6fe36965f50455b34403ae093755d0",
+    "addresses": [
+      "mqTonmJYFCLW6capZBRjiCSarZSTaMbrQk"
+    ],
+    "total": 1900,
+    "fees": 1100,
+    "size": 300,
+    "vsize": 300,
+    "preference": "low",
+    "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
+    "received": "2022-09-25T21:48:59.073327849Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "d9618342ddb1f2210837aba8c7c99b30481eedc354aad9e7b3f4edd5bbaffece",
+        "output_index": 0,
+        "script": "483045022100e3a16c07615473185ca28a2ac66ac7dbcade553a32f9953731b44e880e10b30702207460ff8732150270a884508ec3ce2f047e3390e2a6333de84f9c17541c14688c012102a85c810290203a72b733fed6e297312336761e3d6c7fd5ebd269bd3f483c7c3b",
+        "output_value": 3000,
+        "sequence": 4294967295,
+        "addresses": [
+          "mqTonmJYFCLW6capZBRjiCSarZSTaMbrQk"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2346345
+      }
+    ],
+    "outputs": [
+      {
+        "value": 1900,
+        "script": "14853b775079232503df966e626618e1d388a95720872102169c88a90a49778bd151e2f4c15114ca79a7496361882a731c17e52df2f54651ac6355b175522102169c88a90a49778bd151e2f4c15114ca79a7496361882a731c17e52df2f546512102a85c810290203a72b733fed6e297312336761e3d6c7fd5ebd269bd3f483c7c3b52ae68",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Bob swap tx (BCY) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "25f2e5a113b0bd4b614b3edf17a425d944a205f2e4be462750e46cbd29ae2a80",
+    "addresses": [
+      "BzjCUJLBHUtF9jnHAgU5GxidHwtPWBCDSu"
+    ],
+    "total": 19900,
+    "fees": 10099,
+    "size": 299,
+    "vsize": 299,
+    "preference": "low",
+    "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
+    "received": "2022-09-25T21:48:59.492982421Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "6f6837f0c385584539e89c7dc72d3f8d6fa67b44e77d6e40c2ab4b5eff251afe",
+        "output_index": 0,
+        "script": "473044022035c5e1af28af87f99601f7afdf176c6dbca01cded0af9e7c294c53ab2eb0136f02205949b722d767f4d6daf2ed5f187a383da7e022352cd021d5bc412dc8e7482113012103381d548bd9b4837ab6fb291221168cdaca546ea32d9146f91b477bb71a3aadf1",
+        "output_value": 29999,
+        "sequence": 4294967295,
+        "addresses": [
+          "BzjCUJLBHUtF9jnHAgU5GxidHwtPWBCDSu"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 455782
+      }
+    ],
+    "outputs": [
+      {
+        "value": 19900,
+        "script": "14853b775079232503df966e626618e1d388a95720872102f7517acde9b0a194f5e60bf5cbbb923901a1255f5c791a6ac8abd77103c57cc6ac6355b175522102f7517acde9b0a194f5e60bf5cbbb923901a1255f5c791a6ac8abd77103c57cc62103381d548bd9b4837ab6fb291221168cdaca546ea32d9146f91b477bb71a3aadf152ae68",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Sleeping for 30 minutes to let transactions confirm...
+
+
+Q4 TX READ OUT #2 (alice reedem set to TRUE):~ python swap.py
+Alice swap tx (BTC) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "903c250b91f3271c51aa14b5f8821127e0c1e3a61cca7658b3244e5c5ec45a8a",
+    "addresses": [
+      "mqTonmJYFCLW6capZBRjiCSarZSTaMbrQk"
+    ],
+    "total": 1900,
+    "fees": 1100,
+    "size": 300,
+    "vsize": 300,
+    "preference": "low",
+    "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
+    "received": "2022-09-25T22:13:38.742889947Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "d9618342ddb1f2210837aba8c7c99b30481eedc354aad9e7b3f4edd5bbaffece",
+        "output_index": 1,
+        "script": "483045022100d10012abee682eb487ccfbdb6344b38d8f92ce2d014deb77dc063f1af5c2a1570220792872dac035fd4e77525a9e0bd04268e48d9095813529b65cb16e53d7a769e5012102a85c810290203a72b733fed6e297312336761e3d6c7fd5ebd269bd3f483c7c3b",
+        "output_value": 3000,
+        "sequence": 4294967295,
+        "addresses": [
+          "mqTonmJYFCLW6capZBRjiCSarZSTaMbrQk"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2346345
+      }
+    ],
+    "outputs": [
+      {
+        "value": 1900,
+        "script": "14853b775079232503df966e626618e1d388a95720872102169c88a90a49778bd151e2f4c15114ca79a7496361882a731c17e52df2f54651ac6355b175522102169c88a90a49778bd151e2f4c15114ca79a7496361882a731c17e52df2f546512102a85c810290203a72b733fed6e297312336761e3d6c7fd5ebd269bd3f483c7c3b52ae68",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Bob swap tx (BCY) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "fb5ab492dd49268c12eaf33a96f76e1236ce831423f5a9053e65f2a72733ffb3",
+    "addresses": [
+      "BzjCUJLBHUtF9jnHAgU5GxidHwtPWBCDSu"
+    ],
+    "total": 19900,
+    "fees": 10099,
+    "size": 300,
+    "vsize": 300,
+    "preference": "low",
+    "relayed_by": "2600:1700:d290:2ad0:1d9f:1851:7f73:9a02",
+    "received": "2022-09-25T22:13:39.224090265Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "6f6837f0c385584539e89c7dc72d3f8d6fa67b44e77d6e40c2ab4b5eff251afe",
+        "output_index": 1,
+        "script": "48304502210080ced6325616c750946719f7c5a0665361e6cb8fb4a4236583e50cf351ae250a02207f53e2a96e6d43e1aef7f8eb7e2190a67edd41d06d1202eb6d987db91fedd53d012103381d548bd9b4837ab6fb291221168cdaca546ea32d9146f91b477bb71a3aadf1",
+        "output_value": 29999,
+        "sequence": 4294967295,
+        "addresses": [
+          "BzjCUJLBHUtF9jnHAgU5GxidHwtPWBCDSu"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 455782
+      }
+    ],
+    "outputs": [
+      {
+        "value": 19900,
+        "script": "14853b775079232503df966e626618e1d388a95720872102f7517acde9b0a194f5e60bf5cbbb923901a1255f5c791a6ac8abd77103c57cc6ac6355b175522102f7517acde9b0a194f5e60bf5cbbb923901a1255f5c791a6ac8abd77103c57cc62103381d548bd9b4837ab6fb291221168cdaca546ea32d9146f91b477bb71a3aadf152ae68",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Sleeping for 30 minutes to let transactions confirm...
+
 
 
 

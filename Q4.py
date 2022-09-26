@@ -45,11 +45,11 @@ def coinExchangeScriptSig2(sig_sender, sig_recipient):
 #
 
 alice_txid_to_spend     = "d9618342ddb1f2210837aba8c7c99b30481eedc354aad9e7b3f4edd5bbaffece"
-alice_utxo_index        = 0
+alice_utxo_index        = 1
 alice_amount_to_send    = 0.00002
 
 bob_txid_to_spend       = "6f6837f0c385584539e89c7dc72d3f8d6fa67b44e77d6e40c2ab4b5eff251afe"
-bob_utxo_index          = 0
+bob_utxo_index          = 1
 bob_amount_to_send      = 0.0002
 
 # Get current block height (for locktime) in 'height' parameter for each blockchain (will be used in swap.py):
@@ -68,7 +68,7 @@ tx_fee = 0.000001
 
 # While testing your code, you can edit these variables to see if your
 # transaction can be broadcasted succesfully.
-broadcast_transactions = True
+broadcast_transactions = False
 alice_redeems = False
 
 ######################################################################
