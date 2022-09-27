@@ -195,6 +195,113 @@ Q3a READ OUT: (my_public_key,OP_CHECKSIG, OP_1, cust1_public_key, cust2_public_k
   }
 }
 
+Q3a #2 READ OUT: (OP_1, cust1_public_key, cust2_public_key, 
+                  cust3_public_key, OP_3, my_public_key, OP_CHECKMULTISIG)
+~ python Q3a.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "8f04e72011cf37c172836ec9ee368c3fc5ce0640bb1af5b63c0c1b2a6987b1dc",
+    "addresses": [
+      "zNJcT7UmXtt9Vdkv8mnmxBWTdBuvC8TVre",
+      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+    ],
+    "total": 70000,
+    "fees": 22059,
+    "size": 306,
+    "vsize": 306,
+    "preference": "medium",
+    "relayed_by": "2600:1700:d290:2ad0:2108:9efb:9e77:daa3",
+    "received": "2022-09-27T01:25:27.197108682Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "7b9c454883248535b75be64e7286dcb416a49f9bc86bfbed5702ccd2f504d05f",
+        "output_index": 1,
+        "script": "483045022100f10c3a4bd766f1129a1c701cb656f87633162d2a6aee15b02f1d0c1ad965ba6a0220169c88ebc2b09c6f8675367e8c91b8ccee165e293a7e3288200cfa4583dc9b8301210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
+        "output_value": 92059,
+        "sequence": 4294967295,
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2347631
+      }
+    ],
+    "outputs": [
+      {
+        "value": 70000,
+        "script": "512102e0b66a795fc5db4d874d992bf6993e401b8810e217b7cc0854534f99f46d12002103261a163021fc3a0275c0eb56628077ebd4a3b6d8a8634fbf86fd212a03fb3fe72102a062ed10ba4dced1da9064f0d37fad82e911aca8140649f6ee3b4a2a2256af5353210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126ae",
+        "addresses": [
+          "zNJcT7UmXtt9Vdkv8mnmxBWTdBuvC8TVre"
+        ],
+        "script_type": "pay-to-multi-pubkey-hash"
+      }
+    ]
+  }
+}
+
+Q3a #2 READ OUT: ( my_public_key, OP_1, cust1_public_key, cust2_public_key, 
+                  cust3_public_key, OP_3, OP_CHECKMULTISIG)
+~ python Q3a.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "9506d4d4d2b016ad798d703ce500787c34e9889ce6fa126d40fe31ad3817d93c",
+    "addresses": [
+      "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW",
+      "zNJcT7UmXtt9Vdkv8mnmxBWTdBuvC8TVre"
+    ],
+    "total": 5000,
+    "fees": 5000,
+    "size": 305,
+    "vsize": 305,
+    "preference": "low",
+    "relayed_by": "2600:1700:d290:2ad0:2108:9efb:9e77:daa3",
+    "received": "2022-09-27T01:27:44.918281443Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "0969d868058da4da9539e43b59f16c379be76080ab8ba51930fdc6af49e2f32c",
+        "output_index": 0,
+        "script": "47304402206becf14e59a89bea95c38a0a23c32d6ad2dd91207271272dbb0539a0a52879480220735e4752fa9227d069d794007a2aa2cf75cdfdcaf142d1ccbe198401addacce101210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126",
+        "output_value": 10000,
+        "sequence": 4294967295,
+        "addresses": [
+          "n2o1ZvhxV134GAcuGFkrMxE2LtbckcxcqW"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2347630
+      }
+    ],
+    "outputs": [
+      {
+        "value": 5000,
+        "script": "512102e0b66a795fc5db4d874d992bf6993e401b8810e217b7cc0854534f99f46d12002103261a163021fc3a0275c0eb56628077ebd4a3b6d8a8634fbf86fd212a03fb3fe72102a062ed10ba4dced1da9064f0d37fad82e911aca8140649f6ee3b4a2a2256af5353210344c0a65e80e91023a08f59135329a04be130da9427fefb7badca88ebf7c40126ae",
+        "addresses": [
+          "zNJcT7UmXtt9Vdkv8mnmxBWTdBuvC8TVre"
+        ],
+        "script_type": "pay-to-multi-pubkey-hash"
+      }
+    ]
+  }
+}
+
+
+
+
 Q3b READ OUT: (0, bank_sig, cust1_sig)
 
 
