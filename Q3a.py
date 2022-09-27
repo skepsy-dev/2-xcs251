@@ -28,8 +28,8 @@ cust3_public_key = cust3_private_key.pub
 
 Q3a_txout_scriptPubKey = [
         # fill this in!
-        OP_1, cust1_public_key, cust2_public_key, 
-        cust3_public_key, OP_3, my_public_key, OP_CHECKMULTISIG
+        OP_2, my_public_key, cust1_public_key, cust2_public_key,
+        cust3_public_key, OP_4, OP_CHECKMULTISIG
 ]
 ######################################################################
 
@@ -38,7 +38,7 @@ if __name__ == '__main__':
     # TODO: set these parameters correctly
     amount_to_send = 0.00005  # amount of BTC in the output you're sending minus fee
     txid_to_spend = (
-        '0969d868058da4da9539e43b59f16c379be76080ab8ba51930fdc6af49e2f32c')
+        '5bcdb0efbcd72f73e8a6b34eaef572bac2b59135938fc2a064fb6cad6377a7e2')
     utxo_index = 0 # index of the output you are spending, indices start at 0
     ######################################################################
 
